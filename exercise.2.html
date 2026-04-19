@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="Amazon">
+     <a id="Back" href="https://www.amazon.com/" target="_blank">Back to Amazon</a>
+     <h1> Nike React Infinity 3 (Black/Red)</h1>
+     <h2> $80 - In Stock</h2>
+     <h3> Free Delivery Tommorow</h3>
+
+     <button class="AddtoCart-button">Add to Cart</button>
+     <button class="BuyNow-button">Buy Now</button>
+     
+     <div class="pic">
+      <img src="image/amazon.png">
+      <div class="shoe">
+        <img src="image/black-shoe.png">
+      </div>
+     </div>
+    </div>
+  </div>
+  
+</body>
+</html>
+
+<style>
+*{padding: 0;margin: 0;}
+.container{height: 100vh;
+          width: 100vw;
+          color:#444;
+        background: #FEBD69;
+      }
+      #Back{font-family: 	
+'Franklin Gothic Medium';
+color:white;
+text-decoration: none;
+font-size: 20px;
+transition: opacity 0.15s;
+}
+
+#Back:hover{
+  opacity: 0.8;
+}
+
+#Back:active{
+  opacity: 0.5;
+}
+
+.pic img{
+position: absolute;
+left: 38%; right:50%; bottom:87%;
+clip: rect(50px, 600px, 100px, 0px);
+height:145px;
+border-bottom: solid;
+}
+
+.Amazon h1{
+position: absolute;
+left: 35%; top:20%;
+
+}
+
+.shoe img{
+  position: absolute;
+  top: 25%; left: 550px;
+  margin: 10px auto;
+  clip: rect(0px, 500px, 300px, 0px);
+  height:388px;
+
+}
+
+.Amazon h2{
+  position: absolute;
+left: 35%; top:70%; left: 43%;
+color: green;
+font-size: 28px;
+}
+
+.Amazon h3{
+  position: absolute;
+left: 35%; top:77%; left: 39%;
+font-size: 28px;
+}
+
+.AddtoCart-button{
+border: none;
+background-color: rgb(255, 216, 20);
+height:35px;
+width: 150px;
+font-weight: bold;
+border-radius: 20px;
+position: absolute;
+top:85%; left:37%;
+cursor:pointer;
+transition: opacity 0.15s;
+}
+
+.AddtoCart-button:hover{
+ opacity: 0.8;
+ box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.13);
+}
+
+
+.AddtoCart-button:active{
+ opacity: 0.5;
+}
+
+.BuyNow-button:hover{
+  opacity: 0.8;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.13);
+}
+ 
+.BuyNow-button:active{
+  opacity: 0.5;
+}
+
+.BuyNow-button{
+border: none;
+background-color: rgb(255, 164, 28);
+height:35px;
+width: 150px;
+font-weight: bold;
+border-radius: 20px;
+position: absolute;
+top:85%; left:50%;
+cursor: pointer;
+transition: opacity 0.15s;
+transition: box-shadow 0.15s;
+}
+  
+</style>
